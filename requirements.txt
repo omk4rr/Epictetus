@@ -1,0 +1,29 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi
+uvicorn
+requests
+cachetools
+snscrape==0.7.0.20240601
+youtube-transcript-api
+praw
+spacy
+torch==2.8.0+cpu
+sentence-transformers
+faiss-cpu
+streamlit
+SQLAlchemy
+asyncpg
+psycopg2
+python-dotenv
+pytest
+httpx
+chromadb
+tqdm
+supabase  # Supabase Python client
+feedparser
+langchain
+langchain-community
+langchain-openai
+# Optional, to avoid deprecation of HuggingFaceEmbeddings in future LangChain
+langchain-huggingface
+# Web search integration (Google only)
